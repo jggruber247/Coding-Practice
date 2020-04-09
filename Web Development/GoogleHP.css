@@ -6,6 +6,15 @@
 body {
 	
 }
+
+a {
+	padding: 10% 0 10% 10px;
+}
+
+i {
+	padding: 5% 0 10% 10px;
+}
+
 .navTop {
 	padding-top: 15px;
 }
@@ -13,11 +22,16 @@ body {
 .navTop a {
 	text-align: center;
 	text-decoration: none;
-	font-size: small;
-	color: #000000;
+	color: gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-family: arial, sans-serif;
 }
 
+.navTop a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
 
 .navLeft {
 	overflow: hidden;
@@ -31,24 +45,43 @@ body {
 
 .navLeft a {
 	float: left;
-	padding: 0 0 0 15px;
+	padding: 0 0 0 16px;
 }
 
 .navRight {
 	overflow: hidden;
 	float: right;
+	padding: 0px 30px;
 }
 
 #tr {
-	padding: 0px 30px;
+
 }
 
 .navRight a {
 	float: left;
-	padding: 0 15px 0 0;
 }
 
 .navRight i {
 	padding: 0 0 0 15px;
 	text-align: center;
+	color: gray;
 }
+
+.navRight i:hover {
+	color: #000000;
+}
+
+#pp i {
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	border: 1px solid gray;
+	border-radius: 16px;
+	margin-left: 0 0 0 15px;
+}
+
+#pp i:hover {
+	border-color: #000000;
+}
+
