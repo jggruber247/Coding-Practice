@@ -1,3 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+	
 body {
+	
+}
+.navTop {
+	padding-top: 15px;
+}
 
+.navTop a {
+	text-align: center;
+	text-decoration: none;
+	font-size: small;
+	color: #000000;
+	font-family: arial, sans-serif;
+}
+
+
+.navLeft {
+	overflow: hidden;
+	float: left;
+}
+
+#tl {
+	position: absolute;
+	margin: 7px 0 0 10px;
+}
+
+.navLeft a {
+	float: left;
+	padding: 0 0 0 15px;
+}
+
+.navRight {
+	overflow: hidden;
+	float: right;
+}
+
+#tr {
+	padding: 0px 30px;
+}
+
+.navRight a {
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+.navRight i {
+	padding: 0 0 0 15px;
+	text-align: center;
 }
