@@ -1,6 +1,6 @@
 * {
-	padding: 0;
 	margin: 0;
+	/* border: 1px solid blue; */
 }
 	
 body {
@@ -8,50 +8,51 @@ body {
 }
 
 a {
-	padding: 10% 0 10% 10px;
+	
 }
 
 i {
-	padding: 5% 0 10% 10px;
+	
 }
 
 .navTop {
-	padding-top: 15px;
+	height: 60px;
 }
 
 .navTop a {
 	text-align: center;
 	text-decoration: none;
-	color: gray;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	color: #000000;
+	font-size: 13px;
+	padding: 20px 10px;
 	font-family: arial, sans-serif;
 }
 
 .navTop a:hover {
-	color: #000000;
 	text-decoration: underline;
 }
 
 .navLeft {
 	overflow: hidden;
 	float: left;
+	padding-left: 13px;
+	padding-top: 2px;
+
 }
 
 #tl {
-	position: absolute;
-	margin: 7px 0 0 10px;
+
 }
 
 .navLeft a {
 	float: left;
-	padding: 0 0 0 16px;
 }
 
 .navRight {
 	overflow: hidden;
 	float: right;
-	padding: 0px 30px;
+	padding-right: 12px;
+	padding-top: 2px;
 }
 
 #tr {
@@ -62,8 +63,11 @@ i {
 	float: left;
 }
 
+.navRight a:hover {
+	color: gray;
+}
+
 .navRight i {
-	padding: 0 0 0 15px;
 	text-align: center;
 	color: gray;
 }
@@ -72,16 +76,24 @@ i {
 	color: #000000;
 }
 
+/* #pp {
+	height: 34px;
+	width: 34px;
+} */
+
 #pp i {
-	padding: 0;
-	width: 30px;
-	height: 30px;
+	width: 31px;
+	height: 31px;
 	border: 1px solid gray;
-	border-radius: 16px;
-	margin-left: 0 0 0 15px;
+	border-radius: 17px;
+	padding: 1px;
+	margin: 14px 15px;
 }
 
 #pp i:hover {
 	border-color: #000000;
 }
 
+#apps i {
+	padding-left: 3px;
+}
