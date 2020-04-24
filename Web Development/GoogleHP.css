@@ -7,10 +7,6 @@ body {
 	
 }
 
-a {
-	
-}
-
 i {
 	
 }
@@ -227,4 +223,25 @@ div.search-bar:hover {
     height: 36px;
     min-width: 54px;
 	cursor: pointer;
+}
+
+.message {
+	display: block;
+	width: 262px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.message a {
+	text-decoration: none;
+	color: blue;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+}
+
+.message a:hover {
+	text-decoration: underline;
 }
