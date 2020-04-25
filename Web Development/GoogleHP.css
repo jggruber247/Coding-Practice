@@ -245,3 +245,33 @@ div.search-bar:hover {
 .message a:hover {
 	text-decoration: underline;
 }
+
+.navBott {
+	background-color: #f2f2f2;
+	border-top: 1px solid lightgrey;
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+}
+
+.navBott a {
+	text-align: center;
+	text-decoration: none;
+	color: #5F6368;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	padding: 10px 13px;
+}
+
+.navBott a:hover {
+	text-decoration: underline;
+}
+
+#bl a {
+	float: left;
+}
+
+#bri a {
+	float: right;
+}
