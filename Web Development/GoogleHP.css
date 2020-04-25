@@ -1,6 +1,8 @@
+/* Garrett Gruber
+CSS page for my Google homepage mockup */
+
 * {
 	margin: 0;
-	/* border: 1px solid blue; */
 }
 	
 body {
@@ -71,11 +73,6 @@ i {
 .navRight i:hover {
 	color: #000000;
 }
-
-/* #pp {
-	height: 34px;
-	width: 34px;
-} */
 
 #pp i {
 	width: 31px;
