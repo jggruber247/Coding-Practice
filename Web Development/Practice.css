@@ -3,7 +3,8 @@
 }
 
 .navbar {
-	
+	height: 70px;
+	width: 100%;
 }
 
 h1 {
@@ -11,23 +12,31 @@ h1 {
 }
 
 a {
-	
+	text-decoration: none;
 }
 
 ul {
-
+	list-style: none;
 }
 
 ul.tabs {
-
+	text-align: center;
 }
 
 ul li {
 	
 }
 
+ul ul {
+	display: none;
+}
+
+ul li:hover > ul {
+	display: block;
+}
+
 ul li.tab {
-	
+	float: left;
 }
 
 ul li.item {
@@ -35,17 +44,17 @@ ul li.item {
 }
 
 ul.dropdown {
-	
+	width: 25%;
 }
 
 #tab01 {
-	
+	width: 25%;
 }
 
 #tab02 {
-	
+	width: 25%;
 }
 
 #tab03 {
-	
+	width: 25%;
 }
