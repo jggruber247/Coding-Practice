@@ -22,6 +22,7 @@ ul {
 
 ul.tabs {
 	text-align: center;
+	border: 1px solid green;
 }
 
 ul li {
@@ -42,6 +43,7 @@ ul li.tab {
 
 ul li.item {
 	text-align: center;
+	border: 1px solid black;
 }
 
 ul.dropdown {
