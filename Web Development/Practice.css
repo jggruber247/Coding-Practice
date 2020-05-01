@@ -1,5 +1,6 @@
 * {
-
+	margin: 0;
+	padding: 0;
 }
 
 .navbar {
@@ -40,7 +41,7 @@ ul li.tab {
 }
 
 ul li.item {
-	
+	text-align: center;
 }
 
 ul.dropdown {
