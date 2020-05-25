@@ -4,7 +4,7 @@
 }
 
 .navbar {
-	height: 70px;
+	height: 55px;
 	width: 100%;
 }
 
@@ -13,7 +13,11 @@
 }
 
 h1 {
-	
+	font-weight: bold;
+	float: left;
+	font-size: 35px;
+	padding-top: 10px;
+	padding-left: 20px;
 }
 
 a {
@@ -26,7 +30,7 @@ ul {
 
 ul.tabs {
 	text-align: center;
-	margin-left: 30%;
+	margin-left: 15%;
 }
 
 ul li {
@@ -43,8 +47,8 @@ ul li:hover > ul {
 
 ul li.tab {
 	float: left;
-	padding-top: 5px;
-	margin-top: 20px;
+	padding-top: 10px;
+	margin-top: 10px;
 	border-radius: 4px;
 }
 
@@ -53,13 +57,20 @@ ul li.tab:hover {
 }
 
 ul li.item {
-	font-size: 72%;
 	text-align: center;
 	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	text-shadow: 1px 1px gray;
+}
+
+ul li.item:hover {
+	background-color: #19ffdd;
 }
 
 ul.dropdown {
 	width: 100%;
+	padding-top: 23px;
 }
 
 #tab01 {
