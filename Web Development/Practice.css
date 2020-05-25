@@ -8,6 +8,10 @@
 	width: 100%;
 }
 
+.navbar:hover {
+	border-bottom: 5px solid #f05454;
+}
+
 h1 {
 	
 }
@@ -22,7 +26,7 @@ ul {
 
 ul.tabs {
 	text-align: center;
-	border: 1px solid green;
+	margin-left: 30%;
 }
 
 ul li {
@@ -39,11 +43,19 @@ ul li:hover > ul {
 
 ul li.tab {
 	float: left;
+	padding-top: 5px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
+ul li.tab:hover {
+	background-color: #f05454;
 }
 
 ul li.item {
+	font-size: 72%;
 	text-align: center;
-	border: 1px solid black;
+	padding-top: 10px;
 }
 
 ul.dropdown {
@@ -51,13 +63,13 @@ ul.dropdown {
 }
 
 #tab01 {
-	width: 10%;
+	width: 15%;
 }
 
 #tab02 {
-	width: 10%;
+	width: 15%;
 }
 
 #tab03 {
-	width: 10%;
+	width: 15%;
 }
